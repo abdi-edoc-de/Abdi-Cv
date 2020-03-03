@@ -2,16 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Abdulfeta Dedgeba</title>
 </head>
 <body>
+      
     <!-- 1 step -->
     <!-- Navigation -->
     <hr>
     <a href="Indext.html" rel="noopener noreferrer">home</a> |
-    <a href="contact.html"  rel="noopener noreferrer">contact</a>
+    <a href="contact.html"  rel="noopener noreferrer">contact</a>|
+    <a href="galary.html" Srel="noopener noreferrer">galary</a>
     <hr>
     <table cellspacing=10>
         <tr>
@@ -30,52 +33,47 @@
     <hr>
     
     <form method="POST" action="mailto:se.abdulfeta.dedgba@gmail.com" enctype="utf-8">
-          <table>
+          <table cellspacing=10>
               <tr>
-                  <td></td>
-                  <td></td>
+                  <td><label for="fName"> First Name</label></td>
+               <td><input type="text" name="fName" id="fName" required   pattern="[a-z][A-Z]{1-15}" ></td>
               </tr>
               <tr>
-                  <td></td>
-                  <td></td>
+                  <td><label for="lName"> Last  Name</label></td>
+                  <td><input type="text" name="lName" id="lName"  required    pattern="[a-z][A-Z]{1-15}"></td>
               </tr>
               <tr>
-                  <td></td>
-                  <td></td>
+                  <td><label for="email" enctype="utf-8"> email</label></td>
+                  <td><input type="email" name="email" id="email"  required    ></td>
               </tr>
               <tr>
-                  <td></td>
-                  <td></td>
+                  <td><label for="detail"> detail</label></td>
+                  <td><textarea name="detail" id="detail" cols="30" rows="10"></textarea></td>
+              </tr>
+              <td><label for="Password"> Password</label></td>
+              <td><input type="password" name="lName" id="password"  required   pattern="[A-Z][a-z][0-9]{4-8}"></td>
+              <tr>
+                  <td><select name="country" id="">
+                        <option value="Ethiopia">Ethiopia</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Ertria">Ertria</option>
+                        <option value="Sudan">Sudan</option>
+                        
+                    </select></td>
+                  
               </tr>
               <tr>
-                  <td></td>
-                  <td></td>
-              </tr>
+                  <td><input type="Submit" value="Submit">
+                  </td>
+                 </tr>
+                    
+
+              
           </table>
-                 <label for="fName"> First Name</label>
-        <input type="text" name="fName" id="fName">
-                </tr>
-         <br>
-         <br>
-        <label for="lName"> Last  Name</label>
-        <input type="text" name="lName" id="lName">
-        <br><br>
-        <label for="email" enctype="utf-8"> email</label>
-        <input type="email" name="email" id="email">
-        <br><br>
-        <label for="detail"> detail</label>
-        <textarea name="detail" id="detail" cols="30" rows="10"></textarea>
+                 
         
-        <br><br>
-        <select name="country" id="">
-        <option value="Ethiopia">Ethiopia</option>
-        <option value="Kenya">Kenya</option>
-        <option value="Ertria">Ertria</option>
-        <option value="Sudan">Sudan</option>
         
-    </select>
-    <br><br>
-        <input type="Submit" value="Submit">
+        
     
 
 
