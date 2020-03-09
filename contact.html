@@ -29,58 +29,75 @@
     </p> 
             </td>
         </tr>
+    </table >
+    <table border="3" width="100%">
+        <tr>
+            <td>
+    
+                <table cellpadding ="10">
+                    <form enctype="utf-8" action="mailto:amanueldebebe1000@gmail.com" >
+                    <tr>
+                        <td>   <label for="fName" required pattern="[A-Z][a-z]{1,20}" size="25"> First Name:</label>
+                        </td>
+                        <td><input type="text" name="fName" id="fName" required pattern="[A-Z][a-z]{1,20}"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lName" ">Last Name:</label></td>
+                        <td>  <input type="text" name="Last Name" id="lName" required pattern="[A-Z][a-z]{1,20}"> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Email:">Email:</label>
+                        </td>
+                        <td><input type="email" name="email" required id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>password:</td>
+                        <td><input type="password" name="password" id="" minlength="8" maxlength="20" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>   <label>Phone Num: (251)956-7890 :
+                            
+                           </label> </td>
+                        <td>(<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
+                            <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> - 
+                            <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="detail">Leave Your Comment Here: </label></td>
+                        <td><textarea name="detail" id="detail"  placeholder="Enter Your comment here..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Your Country.</td>
+                        <td> <select name="country" id="">
+                            <option value="Ethiopia">Ethiopia</option>
+                            <option value="Egypt">Egypt</option>
+                        <option value="Sudan">Sudan </option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="rating">Rate the website: </label></td>
+                        <td>0<input type="range" name="rating" id="rating" min="0" max="10" step="1"> 10</td>
+                    </tr>
+                    <tr>
+                        <td><label for="rating">Color: </label></td>
+                        <td><input type="color" name="color" id="color" > </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="submit"></td>
+                    </tr>
+                </form>
+                </table>
+    <td align="center">
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+                
+    </td>
+    </tr>
     </table>
-    <hr>
-    
-    <form method="POST" action="mailto:se.abdulfeta.dedgba@gmail.com" enctype="utf-8">
-          <table cellspacing=10>
-              <tr>
-                  <td><label for="fName"> First Name</label></td>
-               <td><input type="text" name="fName" id="fName" required   pattern="[a-z][A-Z]{1-15}" ></td>
-              </tr>
-              <tr>
-                  <td><label for="lName"> Last  Name</label></td>
-                  <td><input type="text" name="lName" id="lName"  required    pattern="[a-z][A-Z]{1-15}"></td>
-              </tr>
-              <tr>
-                  <td><label for="email" enctype="utf-8"> email</label></td>
-                  <td><input type="email" name="email" id="email"  required    ></td>
-              </tr>
-              <tr>
-                  <td><label for="detail"> detail</label></td>
-                  <td><textarea name="detail" id="detail" cols="30" rows="10"></textarea></td>
-              </tr>
-              <td><label for="Password"> Password</label></td>
-              <td><input type="password" name="lName" id="password"  required   pattern="[A-Z][a-z][0-9]{4-8}"></td>
-              <tr>
-                  <td><select name="country" id="">
-                        <option value="Ethiopia">Ethiopia</option>
-                        <option value="Kenya">Kenya</option>
-                        <option value="Ertria">Ertria</option>
-                        <option value="Sudan">Sudan</option>
-                        
-                    </select></td>
-                  
-              </tr>
-              <tr>
-                  <td><input type="Submit" value="Submit">
-                  </td>
-                 </tr>
-                    
-
-              
-          </table>
-                 
-        
-        
-        
-    
-
-
-
-        
-
-    </form>
     <hr>
     <table>
         <tr>
@@ -95,10 +112,7 @@
     <hr>
     <hr>
     <p >
-        Developed by Abdulfeta 
-    </p>
-    <hr>
-    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-    <hr>
-</body>
+        Developed by Abdulfeta </p>
+                
+    </body>
 </html>
